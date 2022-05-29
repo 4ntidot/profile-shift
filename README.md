@@ -1,5 +1,10 @@
 ![banner](./public/banner.png)
 
+---
+
+![Tech Stack](https://skillicons.dev/icons?i=html,css,js) <br><br>
+
+
 Profile Shift
 =============
 
