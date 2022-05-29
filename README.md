@@ -1,4 +1,4 @@
-![banner](./public/banner.png)
+![banner](./static/banner.png)
 
 ---
 
