@@ -1,0 +1,12 @@
+{
+	"routes": [
+		{ 
+			"handle": "filesystem" 
+		},
+		{
+			"src": "./pages/(.*)",
+			"status": 404,
+			"dest": "./pages/404.html"
+		}
+	]
+}
