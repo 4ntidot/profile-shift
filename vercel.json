@@ -4,9 +4,9 @@
 			"handle": "filesystem" 
 		},
 		{
-			"src": "./pages/(.*)",
+			"src": "/(.*)",
 			"status": 404,
-			"dest": "./pages/404.html"
+			"dest": "/404.html"
 		}
 	]
 }
