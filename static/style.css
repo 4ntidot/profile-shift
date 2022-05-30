@@ -21,6 +21,30 @@ body {
 
 header, footer {
 	padding: var(--padding);
+	background-color: var(--background-3);
+	color: var(--text);
+}
+
+div.content {
+	padding: var(--padding);
 	background-color: var(--background);
 	color: var(--text);
+}
+
+div.box > div.head {
+	background-color: var(--primary-alpha);
+	color: #ffffff;
+	padding: var(--padding-2);
+	border-radius: 8px 8px 0 0;
+}
+div.head > span {
+	color: var(--primary);
+	font-size: 24px;
+	font-weight: bold;
+}
+div.box > div.body {
+	background-color: var(--background-2);
+	color: var(--text);
+	padding: var(--padding-2);
+	border-radius: 0 0 8px 8px;
 }
