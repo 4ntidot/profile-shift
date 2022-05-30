@@ -53,9 +53,9 @@ a.button {
 	background-color: var(--primary-alpha);
 	color: var(--primary);
 	height: 32px;
-	padding: var(--padding-2) var(--padding-4);
-	margin: 0 var(--padding-2);
-	border-radius: 4px;
+	padding: var(--padding-3);
+	margin: var(--padding-3);
+	border-radius: 8px;
 	border: none;
 	outline: none;
 }
@@ -63,4 +63,10 @@ a.button.filled,
 a.button:hover {
 	background-color: var(--primary);
 	color: #ffffff;
+}
+
+
+a {
+	color: var(--primary);
+	text-decoration: none;
 }
