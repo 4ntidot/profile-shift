@@ -31,7 +31,7 @@ div.content {
 div.box > div.head {
 	background-color: var(--primary-alpha);
 	color: #ffffff;
-	padding: 16px 8px;
+	padding: 8px 16px;
 	border-radius: 8px 8px 0 0;
 }
 div.head > span {
@@ -42,7 +42,7 @@ div.head > span {
 div.box > div.body {
 	background-color: var(--background-2);
 	color: var(--text);
-	padding: var(--padding);
+	padding: 8px 16px;
 	border-radius: 0 0 8px 8px;
 }
 
