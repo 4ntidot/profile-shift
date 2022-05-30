@@ -52,7 +52,7 @@ a.button {
 	height: 32px;
 	padding: var(--padding-2);
 	margin: var(--padding-2);
-	border-radius: 8px;
+	border-radius: 6px;
 	border: none;
 	outline: none;
 }
