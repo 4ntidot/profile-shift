@@ -49,9 +49,18 @@ div.box > div.body {
 	border-radius: 0 0 8px 8px;
 }
 
-button {
+a.button {
 	background-color: var(--primary-alpha);
 	color: var(--primary);
 	height: 32px;
 	padding: var(--padding-2) var(--padding-4);
+	margin: 0 var(--padding-2);
+	border-radius: 4px;
+	border: none;
+	outline: none;
+}
+a.button.filled,
+a.button:hover {
+	background-color: var(--primary);
+	color: #ffffff;
 }
