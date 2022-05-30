@@ -48,3 +48,10 @@ div.box > div.body {
 	padding: var(--padding-2);
 	border-radius: 0 0 8px 8px;
 }
+
+button {
+	background-color: var(--primary-alpha);
+	color: var(--primary);
+	height: 32px;
+	padding: var(--padding-2) var(--padding-4);
+}
