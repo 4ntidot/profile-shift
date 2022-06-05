@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>{{ username }} - Profile Shift</title>
+		<link href="/static/favicon.ico" rel="favicon" />
+		<link href="/static/style.css" rel="stylesheet" />
+		<meta charset="utf-8">
+		<meta name="theme-color" content="#1080fe">
+	</head>
+	<body>
+		<nav class="topbar">
+		</nav>
+		<header>
+			<h1>Profile Shift</h1>
+			<p>Profile Shift is a Scratch profile viewer that gives advanced statistics from Scratchers. You can start by searching an user by using the search bar below, or visit one of the similar services.</p><br><br>
+			<div class="flex-container">
+				<a class="button" href="https://scratchstats.com">Scratchstats</a>
+				<a class="button" href="https://ocular.jeffalo.net">Ocular</a>
+				<a class="button" href="https://aviateapp.eu.org">Aviate</a>
+				<a class="button" href="https://auth.itinerary.eu.org">Scratch Auth</a>
+			</div>
+		</header>
+		<div class="content">
+			<div class="box">
+				<div class="head">
+					<span>Featured</span>
+				</div>
+				<div id="featured" class="body">
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+		</footer>
+		<script src="static/components.js" onLoad="loadComponents()"></script>
+		<script src="https://cdn.jsdelivr.net/gh/MystPi/bridge/src/bridge.js"></script>
+		<script>
+			var currentUser = window.location.href.searchParams("username");
+			let bridgeTtl = new Bridge('title');
+			bridgeTtl.cross({username: currentUser});
+			let bridgeHeader = new Bridge('header');
+			bridgeHeader.cross({username: currentUser});
+		</script>
+	</body>
+</html>
